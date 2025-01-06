@@ -38,4 +38,14 @@ impl Editor {
         disable_raw_mode()?;
         Ok(())
     }
+
+
+    
+}
+
+
+pub fn draw_rows() {
+    for _ in 0..24 {
+        println!("~\r");
+    }
 }
